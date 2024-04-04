@@ -1,0 +1,854 @@
+{
+  "project": {
+    "id": "XmunKRNlRTT56e19G3QE",
+    "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+    "members": [],
+    "rating": 0,
+    "client": "default client",
+    "location": {
+      "country": "default country",
+      "address": "default address",
+      "city": "default city"
+    },
+    "memberIds": [],
+    "likes": 0,
+    "name": "randomizetest",
+    "massings": ["Aha8vLb0HeBYeyvdyFkd"]
+  },
+  "massings": {
+    "Aha8vLb0HeBYeyvdyFkd": {
+      "id": "Aha8vLb0HeBYeyvdyFkd",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "floorsNumber": 4,
+      "name": "Testing GH massing",
+      "endFloors": {
+        "top": {
+          "height": 300
+        },
+        "ground": {
+          "height": 300
+        }
+      },
+      "source": "grasshopper",
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "slabHeight": 30,
+      "facades": ["95RbCydrYBRizqPs1awG"],
+      "typicalFloors": {
+        "height": 340
+      }
+    }
+  },
+  "facades": {
+    "95RbCydrYBRizqPs1awG": {
+      "id": "95RbCydrYBRizqPs1awG",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "name": "Testing GH facade",
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "faces": [
+        "cyWsuarGnkUxttkupvKJ",
+        "yjuMzf7Xm9zqzam4CFmx",
+        "tvih4UsvG1kbMMYUDsPG",
+        "KgJxQNPYAaJq0Xq2iG2i",
+        "l0yIx106BV4p0e11i2tI"
+      ]
+    }
+  },
+  "faces": {
+    "KgJxQNPYAaJq0Xq2iG2i": {
+      "id": "KgJxQNPYAaJq0Xq2iG2i",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "orientationAngle": 180,
+      "name": "Face-180",
+      "position": {
+        "X": -1441.4125445657348,
+        "Y": -352.2885195316385,
+        "Z": 0
+      },
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "ribbonsLayout": {
+        "mode": "repeat",
+        "basedOn": {
+          "seed": 0,
+          "shift": 0,
+          "faceId": "",
+          "flip": false
+        }
+      },
+      "dimensions": {
+        "width": 3564.36896,
+        "height": 1360
+      },
+      "ribbons": ["qfgAT2zxIAXUkCFqgraZ"]
+    },
+    "cyWsuarGnkUxttkupvKJ": {
+      "id": "cyWsuarGnkUxttkupvKJ",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "orientationAngle": 0,
+      "name": "Face-0",
+      "position": {
+        "X": 760.574206405968,
+        "Y": 2143.299956146208,
+        "Z": 0
+      },
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "ribbonsLayout": {
+        "mode": "repeat",
+        "basedOn": {
+          "seed": 0,
+          "shift": 0,
+          "faceId": "",
+          "flip": false
+        }
+      },
+      "dimensions": {
+        "width": 2201.98675,
+        "height": 1360
+      },
+      "ribbons": ["dGKti5O32VeJGmEEglcC"]
+    },
+    "l0yIx106BV4p0e11i2tI": {
+      "id": "l0yIx106BV4p0e11i2tI",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "orientationAngle": 270,
+      "name": "Face-270",
+      "position": {
+        "X": -1441.4125445657348,
+        "Y": 2143.299956146208,
+        "Z": 0
+      },
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "dimensions": {
+        "width": 2495.58848,
+        "height": 1360
+      },
+      "ribbons": ["lJvjoP3sQsDJk3LURe5z"],
+      "ribbonsLayout": {
+        "basedOn": {
+          "seed": 0,
+          "shift": 0,
+          "faceId": "",
+          "flip": false
+        },
+        "mode": "auto"
+      }
+    },
+    "tvih4UsvG1kbMMYUDsPG": {
+      "id": "tvih4UsvG1kbMMYUDsPG",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "orientationAngle": 90,
+      "name": "Face-90",
+      "position": {
+        "X": 2122.956419138187,
+        "Y": -352.2885195316385,
+        "Z": 0
+      },
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "dimensions": {
+        "width": 1094.99194,
+        "height": 1360
+      },
+      "ribbons": ["LXM13nQcR1X7uIRycSyZ"],
+      "ribbonsLayout": {
+        "basedOn": {
+          "seed": 0,
+          "shift": 0,
+          "faceId": "",
+          "flip": false
+        },
+        "mode": "repeat"
+      }
+    },
+    "yjuMzf7Xm9zqzam4CFmx": {
+      "id": "yjuMzf7Xm9zqzam4CFmx",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "orientationAngle": 45.7924,
+      "name": "Face-45.7924",
+      "position": {
+        "X": 2122.956419138187,
+        "Y": 742.703416490735,
+        "Z": 0
+      },
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "ribbonsLayout": {
+        "mode": "repeat",
+        "basedOn": {
+          "seed": 0,
+          "shift": 0,
+          "faceId": "",
+          "flip": false
+        }
+      },
+      "dimensions": {
+        "width": 1953.90787,
+        "height": 1360
+      },
+      "ribbons": ["ZRJ6escWpukA9wjXheVB"]
+    }
+  },
+  "ribbons": {
+    "LXM13nQcR1X7uIRycSyZ": {
+      "id": "LXM13nQcR1X7uIRycSyZ",
+      "panelsLayout": {
+        "mode": "repeat",
+        "basedOn": {
+          "seed": 0,
+          "shift": 0,
+          "ribbonId": "",
+          "flip": false
+        }
+      },
+      "padding": {
+        "left": 0,
+        "right": 0
+      },
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "offset": {
+        "left": 0,
+        "right": 0
+      },
+      "name": "Face-90 ribbon",
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "panels": [
+        "VdTTycRoaOYff4u6cTGN",
+        "pqxowG8hLVQg3D0tkPWU",
+        "ZcGN00aBhpDf7lDmXcmd",
+        "XRmJgdrvI4NrZtuVtKbj"
+      ]
+    },
+    "ZRJ6escWpukA9wjXheVB": {
+      "id": "ZRJ6escWpukA9wjXheVB",
+      "panelsLayout": {
+        "mode": "repeat",
+        "basedOn": {
+          "seed": 0,
+          "shift": 0,
+          "ribbonId": "",
+          "flip": false
+        }
+      },
+      "padding": {
+        "left": 0,
+        "right": 0
+      },
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "offset": {
+        "left": 0,
+        "right": 0
+      },
+      "panels": [
+        "VdTTycRoaOYff4u6cTGN",
+        "XRmJgdrvI4NrZtuVtKbj",
+        "ZcGN00aBhpDf7lDmXcmd",
+        "pqxowG8hLVQg3D0tkPWU"
+      ],
+      "name": "Face-45.7924 ribbon",
+      "projectId": "XmunKRNlRTT56e19G3QE"
+    },
+    "dGKti5O32VeJGmEEglcC": {
+      "id": "dGKti5O32VeJGmEEglcC",
+      "panelsLayout": {
+        "mode": "repeat",
+        "basedOn": {
+          "seed": 0,
+          "shift": 0,
+          "ribbonId": "",
+          "flip": false
+        }
+      },
+      "padding": {
+        "left": 0,
+        "right": 0
+      },
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "offset": {
+        "left": 0,
+        "right": 0
+      },
+      "name": "Face-0 ribbon",
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "panels": [
+        "VdTTycRoaOYff4u6cTGN",
+        "XRmJgdrvI4NrZtuVtKbj",
+        "ZcGN00aBhpDf7lDmXcmd",
+        "pqxowG8hLVQg3D0tkPWU"
+      ]
+    },
+    "lJvjoP3sQsDJk3LURe5z": {
+      "id": "lJvjoP3sQsDJk3LURe5z",
+      "panelsLayout": {
+        "mode": "repeat",
+        "basedOn": {
+          "seed": 0,
+          "shift": 0,
+          "ribbonId": "",
+          "flip": false
+        }
+      },
+      "padding": {
+        "left": 0,
+        "right": 0
+      },
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "offset": {
+        "left": 0,
+        "right": 0
+      },
+      "name": "Face-270 ribbon",
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "panels": [
+        "VdTTycRoaOYff4u6cTGN",
+        "XRmJgdrvI4NrZtuVtKbj",
+        "ZcGN00aBhpDf7lDmXcmd"
+      ]
+    },
+    "qfgAT2zxIAXUkCFqgraZ": {
+      "id": "qfgAT2zxIAXUkCFqgraZ",
+      "panelsLayout": {
+        "mode": "repeat",
+        "basedOn": {
+          "seed": 0,
+          "shift": 0,
+          "ribbonId": "",
+          "flip": false
+        }
+      },
+      "padding": {
+        "left": 0,
+        "right": 0
+      },
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "offset": {
+        "left": 0,
+        "right": 0
+      },
+      "name": "Face-180 ribbon",
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "panels": [
+        "VdTTycRoaOYff4u6cTGN",
+        "XRmJgdrvI4NrZtuVtKbj",
+        "ZcGN00aBhpDf7lDmXcmd",
+        "pqxowG8hLVQg3D0tkPWU"
+      ]
+    }
+  },
+  "panels": {
+    "3e7FShKB5yWoVqoCB6CP": {
+      "id": "3e7FShKB5yWoVqoCB6CP",
+      "shadings": [],
+      "name": "wall-panel",
+      "units": ["DTRpNDUYPO5cfKwVen57"],
+      "accountId": "",
+      "projectId": "",
+      "autolayout": false,
+      "dimensions": {
+        "width": 50,
+        "widthLocked": false
+      },
+      "default": true
+    },
+    "cRv39OnhdPmSvufTQJMn": {
+      "id": "cRv39OnhdPmSvufTQJMn",
+      "name": "glazing-panel",
+      "accountId": "",
+      "projectId": "",
+      "autolayout": false,
+      "shadings": [],
+      "units": ["dLNaVkVoeCLU6ju3wfZD"],
+      "dimensions": {
+        "width": 90,
+        "widthLocked": false
+      },
+      "default": true
+    },
+    "VdTTycRoaOYff4u6cTGN": {
+      "id": "VdTTycRoaOYff4u6cTGN",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": true,
+      "name": "wall-panel",
+      "autolayout": false,
+      "units": ["I28MnLpFmD83gJarc8xx"],
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "shadings": [],
+      "dimensions": {
+        "widthLocked": false,
+        "width": 50
+      }
+    },
+    "XRmJgdrvI4NrZtuVtKbj": {
+      "id": "XRmJgdrvI4NrZtuVtKbj",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "name": "Custom panel 5",
+      "autolayout": false,
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "shadings": [],
+      "dimensions": {
+        "widthLocked": false,
+        "width": 50
+      },
+      "units": ["TlipbCSIvlDdwa7ydI8E"]
+    },
+    "ZcGN00aBhpDf7lDmXcmd": {
+      "id": "ZcGN00aBhpDf7lDmXcmd",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "name": "Custom panel 6",
+      "autolayout": false,
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "shadings": [],
+      "dimensions": {
+        "widthLocked": false,
+        "width": 50
+      },
+      "units": ["LGyUeONcSE7hPvpcJgBd"]
+    },
+    "bD4PfXiKimpU5BvA80A7": {
+      "id": "bD4PfXiKimpU5BvA80A7",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "name": "autolayout-glazing-panel",
+      "autolayout": true,
+      "units": ["OZXV8G1Swia6P1hNggBZ"],
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "shadings": [],
+      "dimensions": {
+        "widthLocked": false,
+        "width": 50
+      }
+    },
+    "cEwMoyQRB1mDaelasyt5": {
+      "id": "cEwMoyQRB1mDaelasyt5",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "name": "autolayout-wall-panel",
+      "autolayout": true,
+      "units": ["I28MnLpFmD83gJarc8xx"],
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "shadings": [],
+      "dimensions": {
+        "widthLocked": false,
+        "width": 50
+      }
+    },
+    "pqxowG8hLVQg3D0tkPWU": {
+      "id": "pqxowG8hLVQg3D0tkPWU",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": true,
+      "name": "glazing-panel",
+      "autolayout": false,
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "shadings": [],
+      "dimensions": {
+        "widthLocked": false,
+        "width": 90
+      },
+      "units": ["rgXW9YIGQu0xxJTz9ASy"]
+    }
+  },
+  "units": {
+    "DTRpNDUYPO5cfKwVen57": {
+      "id": "DTRpNDUYPO5cfKwVen57",
+      "name": "wall-unit",
+      "projectId": "",
+      "accountId": "",
+      "dimensions": {
+        "widthLocked": true,
+        "width": 50
+      },
+      "default": true,
+      "entityType": "wall",
+      "skins": [
+        {
+          "id": "5pZgnsaZs4ym8W279XXI",
+          "height": 300
+        }
+      ]
+    },
+    "dLNaVkVoeCLU6ju3wfZD": {
+      "id": "dLNaVkVoeCLU6ju3wfZD",
+      "name": "glazing-unit",
+      "projectId": "",
+      "accountId": "",
+      "dimensions": {
+        "widthLocked": true,
+        "width": 90
+      },
+      "entityType": "glazing",
+      "default": true,
+      "skins": [
+        {
+          "id": "5pZgnsaZs4ym8W279XXI",
+          "height": 50
+        },
+        {
+          "id": "Gzm3sd8SaasdKdT6E3fj",
+          "height": 250
+        }
+      ]
+    },
+    "I28MnLpFmD83gJarc8xx": {
+      "id": "I28MnLpFmD83gJarc8xx",
+      "skins": [
+        {
+          "id": "VNcs3a6676TFQeKvVGIa",
+          "height": 340
+        }
+      ],
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": true,
+      "entityType": "wall",
+      "name": "wall-unit",
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "dimensions": {
+        "widthLocked": true,
+        "width": 50
+      }
+    },
+    "LGyUeONcSE7hPvpcJgBd": {
+      "id": "LGyUeONcSE7hPvpcJgBd",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "entityType": "wall",
+      "name": "wall unit 4",
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "dimensions": {
+        "widthLocked": true,
+        "width": 150
+      },
+      "skins": [
+        {
+          "id": "VNcs3a6676TFQeKvVGIa",
+          "height": 340
+        }
+      ]
+    },
+    "OZXV8G1Swia6P1hNggBZ": {
+      "id": "OZXV8G1Swia6P1hNggBZ",
+      "skins": [
+        {
+          "id": "VNcs3a6676TFQeKvVGIa",
+          "height": 60
+        },
+        {
+          "id": "AwOW8pCJ7Qcdh2RLvN5H",
+          "height": 280
+        }
+      ],
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": true,
+      "entityType": "glazing",
+      "name": "glazing-unit",
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "dimensions": {
+        "widthLocked": true,
+        "width": 90
+      }
+    },
+    "TlipbCSIvlDdwa7ydI8E": {
+      "id": "TlipbCSIvlDdwa7ydI8E",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "entityType": "glazing",
+      "name": "glazing unit 3",
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "dimensions": {
+        "widthLocked": true,
+        "width": 250
+      },
+      "skins": [
+        {
+          "id": "VNcs3a6676TFQeKvVGIa",
+          "height": 60
+        },
+        {
+          "id": "P6RILnDbxPAvzSR6YjGN",
+          "height": 280
+        }
+      ]
+    },
+    "rgXW9YIGQu0xxJTz9ASy": {
+      "id": "rgXW9YIGQu0xxJTz9ASy",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "entityType": "glazing",
+      "name": "glazing unit 5",
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "dimensions": {
+        "widthLocked": true,
+        "width": 90
+      },
+      "skins": [
+        {
+          "id": "VNcs3a6676TFQeKvVGIa",
+          "height": 60
+        },
+        {
+          "id": "P6RILnDbxPAvzSR6YjGN",
+          "height": 280
+        }
+      ]
+    }
+  },
+  "skins": {
+    "5pZgnsaZs4ym8W279XXI": {
+      "id": "5pZgnsaZs4ym8W279XXI",
+      "frame": {
+        "width": 6,
+        "thickness": 5
+      },
+      "divisions": {
+        "horizontal": 2,
+        "vertical": 2
+      },
+      "projectId": "",
+      "accountId": "",
+      "layers": [
+        "tg9dRBP1G4NFvqQ97ywy",
+        "HXZKQUClWI2v3S3bkm6w",
+        "3FX16pInv9PFFTtBvvnt"
+      ],
+      "dimensions": {
+        "recess": 0
+      },
+      "name": "wall-skin",
+      "default": true,
+      "entityType": "wall"
+    },
+    "Gzm3sd8SaasdKdT6E3fj": {
+      "id": "Gzm3sd8SaasdKdT6E3fj",
+      "frame": {
+        "thickness": 5,
+        "width": 6
+      },
+      "divisions": {
+        "horizontal": 2,
+        "vertical": 2
+      },
+      "projectId": "",
+      "accountId": "",
+      "layers": [
+        "SXb3naS2LwQbckRgzotP",
+        "NnXttvq4NeObTWafKMB0",
+        "SXb3naS2LwQbckRgzotP",
+        "NnXttvq4NeObTWafKMB0",
+        "SXb3naS2LwQbckRgzotP"
+      ],
+      "name": "glazing-skin",
+      "dimensions": {
+        "recess": 15
+      },
+      "default": true,
+      "entityType": "glazing"
+    },
+    "AwOW8pCJ7Qcdh2RLvN5H": {
+      "id": "AwOW8pCJ7Qcdh2RLvN5H",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": true,
+      "entityType": "glazing",
+      "name": "glazing-skin",
+      "layers": [
+        "Fg4QS44e6CjIoryLmvcl",
+        "etZ9Rts0raZwv0XK3UUc",
+        "Fg4QS44e6CjIoryLmvcl",
+        "etZ9Rts0raZwv0XK3UUc",
+        "Fg4QS44e6CjIoryLmvcl"
+      ],
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "divisions": {
+        "horizontal": 2,
+        "vertical": 2
+      },
+      "dimensions": {
+        "recess": 15
+      },
+      "frame": {
+        "thickness": 5,
+        "width": 6
+      }
+    },
+    "P6RILnDbxPAvzSR6YjGN": {
+      "id": "P6RILnDbxPAvzSR6YjGN",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "entityType": "glazing",
+      "name": "glazing-skin 3",
+      "layers": [
+        "Fg4QS44e6CjIoryLmvcl",
+        "etZ9Rts0raZwv0XK3UUc",
+        "Fg4QS44e6CjIoryLmvcl",
+        "etZ9Rts0raZwv0XK3UUc",
+        "Fg4QS44e6CjIoryLmvcl"
+      ],
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "divisions": {
+        "horizontal": 0,
+        "vertical": 0
+      },
+      "frame": {
+        "width": 0,
+        "thikness": 0
+      },
+      "dimensions": {
+        "recess": 20
+      }
+    },
+    "VNcs3a6676TFQeKvVGIa": {
+      "id": "VNcs3a6676TFQeKvVGIa",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": true,
+      "entityType": "wall",
+      "name": "wall-skin",
+      "layers": [
+        "xisXWiHfRaDzzl5rCtdp",
+        "D14Vam0qq53KaFAwNJZx",
+        "8rzKps57BHS4j8DWIqXT"
+      ],
+      "projectId": "XmunKRNlRTT56e19G3QE",
+      "divisions": {
+        "horizontal": 2,
+        "vertical": 2
+      },
+      "dimensions": {
+        "recess": 0
+      },
+      "frame": {
+        "thickness": 5,
+        "width": 6
+      }
+    }
+  },
+  "layers": {
+    "3FX16pInv9PFFTtBvvnt": {
+      "id": "3FX16pInv9PFFTtBvvnt",
+      "material": "AXfgRrv5caMWyd1JSGKT",
+      "projectId": "",
+      "accountId": "",
+      "depth": 15,
+      "name": "Concrete",
+      "materialType": "structural"
+    },
+    "HXZKQUClWI2v3S3bkm6w": {
+      "id": "HXZKQUClWI2v3S3bkm6w",
+      "accountId": "",
+      "material": "lVXnwNHN7B0umDSXiRx9",
+      "projectId": "",
+      "name": "Mineral Wool",
+      "depth": 30,
+      "materialType": "insulation"
+    },
+    "NnXttvq4NeObTWafKMB0": {
+      "id": "NnXttvq4NeObTWafKMB0",
+      "accountId": "",
+      "material": "x376RD0t9gaoq5if2rtV",
+      "projectId": "",
+      "depth": 1.5,
+      "name": "Argon",
+      "materialType": "igu"
+    },
+    "SXb3naS2LwQbckRgzotP": {
+      "id": "SXb3naS2LwQbckRgzotP",
+      "material": "cU3lQTDSfr5Cy9wNWLkA",
+      "projectId": "",
+      "accountId": "",
+      "name": "Glass",
+      "depth": 0.6,
+      "materialType": "transparent"
+    },
+    "tg9dRBP1G4NFvqQ97ywy": {
+      "id": "tg9dRBP1G4NFvqQ97ywy",
+      "accountId": "",
+      "material": "XNYQLzcFi4oaLUrO9WvD",
+      "projectId": "",
+      "depth": 7.5,
+      "name": "Metal",
+      "materialType": "cladding"
+    },
+    "8rzKps57BHS4j8DWIqXT": {
+      "id": "8rzKps57BHS4j8DWIqXT",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "depth": 15,
+      "material": "AXfgRrv5caMWyd1JSGKT",
+      "materialType": "structural",
+      "name": "Concrete",
+      "projectId": "XmunKRNlRTT56e19G3QE"
+    },
+    "D14Vam0qq53KaFAwNJZx": {
+      "id": "D14Vam0qq53KaFAwNJZx",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "depth": 30,
+      "material": "lVXnwNHN7B0umDSXiRx9",
+      "materialType": "insulation",
+      "name": "Mineral Wool",
+      "projectId": "XmunKRNlRTT56e19G3QE"
+    },
+    "Fg4QS44e6CjIoryLmvcl": {
+      "id": "Fg4QS44e6CjIoryLmvcl",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "depth": 0.6,
+      "material": "cU3lQTDSfr5Cy9wNWLkA",
+      "materialType": "transparent",
+      "name": "Glass",
+      "projectId": "XmunKRNlRTT56e19G3QE"
+    },
+    "etZ9Rts0raZwv0XK3UUc": {
+      "id": "etZ9Rts0raZwv0XK3UUc",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "depth": 1.5,
+      "material": "x376RD0t9gaoq5if2rtV",
+      "materialType": "igu",
+      "name": "Argon",
+      "projectId": "XmunKRNlRTT56e19G3QE"
+    },
+    "xisXWiHfRaDzzl5rCtdp": {
+      "id": "xisXWiHfRaDzzl5rCtdp",
+      "accountId": "smTcwlHDaEO74F26xv3dIvDYx9r1",
+      "default": false,
+      "depth": 7.5,
+      "material": "XNYQLzcFi4oaLUrO9WvD",
+      "materialType": "cladding",
+      "name": "Metal",
+      "projectId": "XmunKRNlRTT56e19G3QE"
+    }
+  },
+  "materials": {
+    "AXfgRrv5caMWyd1JSGKT": {
+      "id": "AXfgRrv5caMWyd1JSGKT",
+      "accountId": "",
+      "projectId": "",
+      "type": "structural",
+      "name": "Concrete"
+    },
+    "XNYQLzcFi4oaLUrO9WvD": {
+      "id": "XNYQLzcFi4oaLUrO9WvD",
+      "accountId": "",
+      "projectId": "",
+      "name": "Metal",
+      "type": "cladding"
+    },
+    "cU3lQTDSfr5Cy9wNWLkA": {
+      "id": "cU3lQTDSfr5Cy9wNWLkA",
+      "accountId": "",
+      "projectId": "",
+      "name": "Glass",
+      "type": "transparent"
+    },
+    "lVXnwNHN7B0umDSXiRx9": {
+      "id": "lVXnwNHN7B0umDSXiRx9",
+      "accountId": "",
+      "projectId": "",
+      "type": "insulation",
+      "name": "Mineral Wool"
+    },
+    "x376RD0t9gaoq5if2rtV": {
+      "id": "x376RD0t9gaoq5if2rtV",
+      "accountId": "",
+      "projectId": "",
+      "type": "igu",
+      "name": "Argon"
+    }
+  }
+}
