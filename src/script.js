@@ -1,11 +1,11 @@
 import data from "../static/json/projectDataStructure.json";
-
+var ribbonWidth = 10;
 const scene = new THREE.Scene();
 scene.background = new THREE.Color("#262626");
 
 // Set up camera
 const camera = new THREE.PerspectiveCamera(
-  45,
+  75,
   window.innerWidth / window.innerHeight,
   0.1,
   10000
@@ -54,12 +54,12 @@ const animate = () => {
 };
 animate();
 
-function ribbonDrawing() {
-  const ribbons = new THREE.Group();
-  scene.add(ribbons);
+function ribbonDrawing1() {
+  const ribbonsG = new THREE.Group();
+  scene.add(ribbonsG);
 
   const ribbon = new THREE.Group();
-  ribbons.add(ribbon);
+  ribbonsG.add(ribbon);
 
   const wall_panel = new THREE.Mesh(
     new THREE.BoxGeometry(50, 300, 25),
@@ -92,20 +92,68 @@ function ribbonDrawing() {
   glazing_panel.add(glazing, wall);
 }
 
-ribbonDrawing();
+ribbonDrawing1();
 
-function facesDrawing() {
-  // const facades = THREE.Group();
-  // scene.add(facades);
-  console.log(data);
-  console.log(
-    data.faces[
-      data.facades[data.massings[data.project.massings[0]].facades[0]].faces[0]
-    ]
-  );
+function projectDrawing() {
+  const projectG = new THREE.Group();
+  scene.add(projectG);
+  const massingsG = new THREE.Group();
+  projectG.add(massingsG);
+  const massingG = new THREE.Group();
 
-  // data.faces.map((face) => {
-  //   console.log(face);
-  // });
+  data.project.massings.map((massing) => {
+    massingDrawing(massing);
+  });
 }
-facesDrawing();
+
+function massingDrawing(massing) {
+  const facadesG = new THREE.Group();
+  data.massings[massing].facades.map((facade) => {
+    facadeDrawing(facade);
+  });
+  massingsG.add(massingG);
+}
+
+function facadeDrawing(facade) {
+  const facadeG = new THREE.Group();
+  data.facades[facade].faces.map((face) => {
+    faceDrawing(face);
+  });
+  facadesG.add(facadeG);
+}
+
+function faceDrawing(face) {
+  const facesG = new THREE.Group();
+  const ribbonsG = new THREE.Group();
+  scene.add(ribbonsG);
+  data.faces[face].ribbons.map((ribbon) => {
+    ribbonDrawing(ribbon);
+  });
+}
+
+function ribbonDrawing(ribbon) {
+  const ribbonG = new THREE.Group();
+  ribbonG.add(panelsG);
+  const panelsG = new THREE.Group();
+  data.ribbons[ribbon].panels.map((panel) => {
+    console.log(data.panels[panel]);
+    const panelG = new THREE.Group();
+
+    panelsG.add(panelG);
+    data.panels[panel].units.map((unit) => {
+      data.units[unit].skins.map((skin) => {
+        // console.log(data.skins[skin.id]);
+        // if (data.panels[panel].name === "wall-panel") {
+        // } else if (data.panels[panel].name === "glazing-panel") {
+        // } else if (data.panels[panel].name === "wall-glazing") {
+        // }
+        const wall_panel = new THREE.Mesh(
+          new THREE.BoxGeometry(50, 300, 25),
+          new THREE.MeshBasicMaterial({ color: "#ffffff" })
+        );
+      });
+    });
+  });
+}
+
+projectDrawing();
